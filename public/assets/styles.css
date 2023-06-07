@@ -1,0 +1,145 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #A683E3;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+  font-family: 'DynaPuff', cursive;}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;}
+
+body{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center
+}
+
+.a{
+  padding-bottom: 20%;
+  padding-top: 20%;
+}
+
+.b{
+  padding-bottom: 20%;
+  padding-top: 20%;
+}
+
+.btn{
+  font-size: 1.5rem;
+}
+.in{
+  display: flex;
+  justify-content: center;
+}
+input[type="email"]{
+  width: 70%;
+}
+input[type="password"]{
+  width: 70%;
+}
+.dd{
+  width:70%
+}
+label{
+  font-size: 0.8rem;
+}
+input[type="text"]{
+  width: 70%;
+}
+#text{
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+#text:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}

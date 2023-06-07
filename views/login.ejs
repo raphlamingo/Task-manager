@@ -1,0 +1,32 @@
+<%- include('header'); -%> 
+<body>
+    <div class="container home">    
+        <div id="heading"><h1>Login</h1>
+    </div>
+
+    <div class="box">
+        <% if (error) { %>
+            <div class="error-message">
+              <%= error %>
+            </div>
+          <% } %>
+        <form action="/login" method="post">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <div class="in"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <div class="in"><input type="password" class="form-control" id="exampleInputPassword1" name="password"></div>
+                <label>
+                  <input type="checkbox" id="showPasswordCheckbox">
+                  Show Password
+                </label>
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+<%- include('footer'); -%> 
